@@ -1,0 +1,25 @@
+<p>empregistration works!</p>
+<div class="container">
+    <div class="row mt-5">
+        <!-- reg form -->
+        <div class="col-sm-6">
+            <form #ref="ngForm" (ngSubmit)="getEmpObj(ref)">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="username" ngModel placeholder="Usrname">
+                    <input type="email" class="form-control" name="email" ngModel placeholder="email">
+                    <button type="submit" class="btn btn-success">Add emp</button>
+                </div>
+            </form>
+
+
+
+
+        </div>
+
+
+<!-- emp list -->
+        <div class="col-sm-6">
+            <app-emplist></app-emplist>
+        </div>
+    </div>
+</div>
