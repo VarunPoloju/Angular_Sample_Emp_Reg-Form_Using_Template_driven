@@ -1,4 +1,4 @@
-# This is a sample emp reg form done by using Template driven forms in Angular for practice only,
+# This is a sample emp reg form done by using Template driven forms in Angular for practice only.
 
 # Cdb35
 
